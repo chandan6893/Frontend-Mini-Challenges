@@ -1,0 +1,38 @@
+.Counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CounterButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.CounterBtn {
+  width: 60px;
+  height: 38px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 6px;
+  font-size: large;
+  font-weight: bold;
+}
+.CounterIncOrDec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: large;
+}
+.CounterIncOrDecInputTag {
+  height: 24px;
+  width: 60px;
+  border: 1.8px solid black;
+}
+.CounterResetBtn {
+  width: 85px;
+  height: 36px;
+  padding: 3px;
+  font-weight: bold;
+}
