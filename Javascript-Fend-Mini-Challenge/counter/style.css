@@ -29,6 +29,7 @@
   height: 24px;
   width: 60px;
   border: 1.8px solid black;
+  text-align: center;
 }
 .CounterResetBtn {
   width: 85px;
