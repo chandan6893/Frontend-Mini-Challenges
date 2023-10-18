@@ -19,6 +19,7 @@ const Quotes = [
   }
 ];
 
+
 const randomQuote = document.querySelector(".randomQuote");
 const writer = document.querySelector(".writer");
 const GeneratorBtn = document.querySelector(".GeneratorBtn");
