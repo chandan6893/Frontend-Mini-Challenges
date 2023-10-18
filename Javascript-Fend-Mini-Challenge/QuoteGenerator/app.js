@@ -24,5 +24,7 @@ const writer = document.querySelector(".writer");
 const GeneratorBtn = document.querySelector(".GeneratorBtn");
 
 GeneratorBtn.addEventListener("click",()=>{
-    console.log(randomQuote.innerText);
+    let ind = Math.floor(Math.random() * Quotes.length);
+    randomQuote.innerText = Quotes[ind].quote;
+    writer.innerText = Quotes[ind].writer;
 })
