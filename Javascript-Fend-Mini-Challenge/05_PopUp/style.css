@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Container-B{
+    background-color: lightblue;
+    width: 18rem;
+    height: 12rem;
+}
+.Container-A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+}
+.Container-A button{
+    margin-bottom: 2rem;
+    height: 36px;
+    width: 96px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 8px;
+    background-color: royalblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+}
