@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    margin-top: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    position: absolute;
+    
+}
