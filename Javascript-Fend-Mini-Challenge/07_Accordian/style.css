@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    margin-top: 60px;
+}
+.accordian{
+    max-width: 45rem;
+    margin-bottom: 1.6rem;
+    background-color: linen;
+    padding: 10px 18px ;
+}
+.question{
+    margin-bottom: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0.5rem;
+}
+.answer{
+    padding: 0 1.4rem;
+}
