@@ -11,6 +11,10 @@ body{
     background-color: lightpink;
     margin-top: 60px;
 }
+body h2{
+    margin-bottom: 2rem;
+    color: rgb(7, 7, 62);
+}
 .accordian{
     max-width: 45rem;
     margin-bottom: 1.6rem;
@@ -22,7 +26,13 @@ body{
     display: flex;
     justify-content: space-around;
     margin-right: 0.5rem;
+    cursor: pointer;
 }
 .answer{
     padding: 0 1.4rem;
+}
+
+.active{
+    height: 0;
+    overflow: hidden;
 }
