@@ -1,11 +1,22 @@
+// youtube Link
+// https://www.youtube.com/watch?v=vU_U-UBMOnM
 const accordians = document.querySelectorAll(".accordian");
-const question   = document.querySelector(".question");
-const icon       = document.querySelector(".icon");
-const answer     =document.querySelector(".answer");
 
-accordians.forEach(accordian=>{
-    accordian.addEventListener("click",()=>{
-        console.log("first")
-        answer.classList.toggle("active")
-    })
-})
+accordians.forEach((accordian) => {
+  const icon = accordian.querySelector(".icon");
+  const answer = accordian.querySelector(".answer");
+  accordian.addEventListener("click", () => {
+    // icon.classList.toggle("active");
+    // answer.classList.toggle("active");
+
+    // BUT best would be
+
+    if (icon.classList.contains("active")) {
+      icon.classList.remove("active");
+      answer.style.maxHeight = null;
+    } else {
+      icon.classList.add("active");
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    }
+  });
+});
